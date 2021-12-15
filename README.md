@@ -1,6 +1,5 @@
 # Notes
-this is my notes
+准备写一下笔记，练习github的操作。
 
 
 
-there are JAVA. and PHP etc .
