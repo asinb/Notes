@@ -1,5 +1,6 @@
 # SpringMVC后台接收参数的几种方式
 
+## 获取参数用map，前端不要随便变  否则容易错
 
 ```java 
 @RequestMapping("/test")
@@ -11,6 +12,8 @@
 
 
 
+## 默认前端传的字段和后端一直就能匹配上。
+
 ```java 
 @RequestMapping("/test")
     public String  test(Test test)  {
@@ -19,7 +22,7 @@
     }
 ```
 
-
+## 指定接收参数。
 
 ```java 
 @RequestMapping("/test")
@@ -29,3 +32,6 @@
         return  "test";
     }
 ```
+
+
+
